@@ -22,8 +22,8 @@ Gem::Specification.new do |s|
   s.requirements << 'none'
 
   spree_version = '>= 3.1.0', '< 5.0'
-  s.add_dependency 'spree_core', spree_version
-  s.add_dependency 'spree_extension'
+  s.add_dependency "solidus_core", [">= 1.1", "< 3"]
+  s.add_dependency "solidus_support", ">= 0.1.3"
 
   s.add_development_dependency 'appraisal'
   s.add_development_dependency 'bootstrap-sass'

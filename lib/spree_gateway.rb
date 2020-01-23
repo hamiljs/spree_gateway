@@ -1,4 +1,5 @@
-require 'spree_core'
-require 'spree_gateway/engine'
-require 'spree_gateway/version'
-require 'spree_extension'
+require "solidus_core"
+require "solidus_support"
+require "active_merchant"
+require "spree_gateway/engine"
+require "solidus_gateway/version"
